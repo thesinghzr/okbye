@@ -1,0 +1,32 @@
+#mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 844px;
+    width: 100%;
+    background-color:#afacac;
+}
+#firstDiv{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#firstDiv:hover{
+    color: white;
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #afacac;
+  }
+.timer {
+    text-align: center;
+    font-size: 12px;
+    background: #afacac;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 14px rgba(243, 8, 8, 0.1);
+}
